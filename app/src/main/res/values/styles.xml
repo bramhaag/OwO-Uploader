@@ -3,9 +3,6 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textViewStyle">@style/RobotoTextView</item>
     </style>
@@ -14,4 +11,11 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
+    <style name="OwOTextView" parent="RobotoTextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/owo</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">@color/logoColor</item>
+    </style>
 </resources>
