@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OwO Uploader</string>
+    <string name="owo">OwO</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_enter_token">Please enter your token to continue</string>
+    <string name="login_hint_token">Token</string>
+    <string name="login_button_continue">Continue</string>
 </resources>
